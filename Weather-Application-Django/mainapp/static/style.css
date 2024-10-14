@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: Arial, sans-serif; /* Set font */
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+.navbar-brand {
+    color: white !important; /* Navbar brand color */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Navbar link color */
+}
+
+/* Form Styles */
+#logreg-forms {
+    background-color: #ffffff; /* White background for forms */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add padding around the form */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+h1, h6 {
+    color: #343a40; /* Dark gray color for headings */
+}
+
+.form-control {
+    border-radius: 5px; /* Rounded corners for input fields */
+    border: 1px solid #ced4da; /* Border color */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow effect on focus */
+}
+
+.btn-info {
+    background-color: #007bff; /* Button background color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.btn-info:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 500px) {
+    #logreg-forms {
+        width: 90%; /* Full width on small screens */
+    }
+}
